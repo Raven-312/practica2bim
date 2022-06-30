@@ -1,0 +1,55 @@
+
+#titulo
+{
+    margin:0 auto;
+    text-align: center;
+    justify-content: center;
+
+}
+#contenedor 
+{
+    height: 200px;
+    width: 300px; 
+    text-align: center;
+    justify-content: center;
+    background-color: #F1D4B2 ;
+    align-items: center;
+     margin: 0 auto ;
+   
+}
+#contenedor2
+{
+    font-weight: bold;
+    height: 5000px;
+    width: 400px; 
+    background-color: #6EC1B9 ;
+     margin: 0 auto ;
+    padding: 20px 40px;    
+
+}
+#botones
+{
+    text-align: center;    
+    
+}
+footer
+{
+    text-align: center;
+}
+table, td ,th
+
+{
+    margin: auto;
+    font-weight: bold;
+    border:1px solid black;
+  width: 50%;
+}
+thead
+{
+
+     background:#F0E68C;
+}
+
+
+    
+

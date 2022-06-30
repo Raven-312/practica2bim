@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <title>Registro</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+</head>
+<body>
+    <form>
+        <div id="contenedor2">
+        <fieldset>
+        <legend>Datos personales</legend>
+                   
+                      
+                            <p>Nombre:</p>
+                             <input type="text" name="nombre" placeholder="nombre"  >
+                            <p> Apellidos:</p> 
+                            <input type="apellidos" placeholder="apellidos" name="apellido" >
+                            <p> Fecha Nacimiento:</p> 
+                            <input type="date" id="start" name="trip-start" placeholder="Fecha nacimiento" >
+                            <p> Sexo:</p> 
+                            <label for="masculino">Masculino</label>
+                            <input type="radio" name="genero" id="masculino" value="masculino">
+                            <label for="femenino">Femenino</label>
+                            <input type="radio" name="genero" id="femenino" value="femenino">
+                            
+          </fieldset>   
+
+          <fieldset>
+          <legend>Datos Adicionales</legend>
+          <p>Codigo estudiante</p>
+          <input type="text" name="Codigo" placeholder="SIS-001"  >  
+          <p>Carrera</p>
+          <select name="carrera" > 
+            <option hidden selected>Elegir carrera</option>
+            <option value="sec">Secretariado</option>
+            <option value="sis">Sistemas Informaticos</option>
+            <option value="cont">Contaduria</option>
+            <option value="admn">Marketing</option>
+        </select>
+          
+                      
+              </fieldset>          
+              <div id="botones">
+                
+                <a href="lista.html" class="button">Registrar</a>
+                
+                <button type="reset">Limpiar</button>
+              </div>       
+              
+             
+            <div footer>           
+             <footer>
+                <p>Derechos reservados-INCOS nocturno<br>
+                </footer>
+                </div> 
+              
+            </div>    
+
+    </form>             
+                    
+</body>
+</html>
